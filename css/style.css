@@ -31,7 +31,14 @@ a {
 /* HEADER */
 
 header {
+    display: inherit;
+    position: fixed;
+    
     height: 80px;
+    width: 100%;
+        
+    box-shadow: 0 0 30px black;
+    
     background-color: #001425;
 }
 
@@ -61,8 +68,10 @@ header nav ul li a {
 /* Main image */
 
 #main-image{
+    padding-top: 80px;
+    
     width: 100%;
-    height: 500px;
+    height: 580px;
     background: url('../img/mainfofo.jpg') no-repeat center;
     background-size: cover;
 }
