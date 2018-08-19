@@ -1,13 +1,12 @@
 /* GENERAL */
-
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
 body {
+    margin: 0;
+    padding: 0;
+    
     font-family: arial, sans-serif;
     font-size: 15px;
+    
+    background-color: #001425;
 }
 
 h1 {
@@ -39,7 +38,7 @@ header {
         
     box-shadow: 0 0 30px black;
     
-    background-color: #001425;
+    background-color: rgba(00,14,25,0.85);
 }
 
 header h1{
@@ -96,6 +95,44 @@ header nav ul li a {
     color: #ccd9e4; 
     padding: 30px 300px; 
     text-align: justify;
+}
+
+/* PAGE DE CONTACT */
+
+.contact-block {
+    position: relative;
+    float: left;
+    
+    width: calc(50% - 40px);
+    
+    margin: 0;
+    padding: 20px;
+    
+    text-align: center;
+}
+
+#contact-form {
+    color: white;
+}
+
+#contact-form .input {
+    width: 65%;
+    
+    padding: 20px 10px;
+    
+    border: none;
+    border-radius: 20px;
+    
+    text-align: center;
+}
+
+#form-valid {
+    width: 65%;
+    
+    margin: 0;
+    
+    border: none;
+    border-radius: 20px;
 }
 
 /* FOOTER */
