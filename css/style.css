@@ -144,7 +144,60 @@ footer{
 
 }
 
+/* PAGE EQUIPE */
 
+#block-staff {
+    background-color: #efefef;
+    padding: 60px 0 60px 0;
+    
+
+}
+
+#block-staff article{
+    width: 460px;
+    height: 270px;
+    float: left;
+    border-radius: 10px;
+}
+
+#block-staff article:first-child{
+    margin-right: 20px;
+}
+
+.overlay{
+    background: rgba(255, 255,255, 0.95);
+    height: 230px;
+    width: 190px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+
+}
+
+article h4{
+    border-bottom: 1px solid #DDD;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#block-staff p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button-2{
+    color: #fff;
+    background-color: #ff7100;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+
+.button-2:hover{
+    color: #fff;
+    background-color: #02b8dd;
+}
 
 
 
