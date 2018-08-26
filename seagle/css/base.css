@@ -1,0 +1,23 @@
+#seagle-tchat {
+    display: block;
+    position: fixed;
+    
+    bottom: 0;
+    right: 0;
+    
+    height: 30px;
+    width: 30px;
+    
+    background-color: #666666;
+    
+    border: 1px solid solid #555555;
+}
+
+#seagle-tchat:hover {
+    animation: btsu 0.3s linear;
+    
+    height: 50px;
+    width: 50px;
+    
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+@keyframes btsu {
+    from {
+        height: 30px;
+        width: 30px;
+    }
+    to {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@keyframes iSld {
+    from {
+        width: 50px;
+    }
+    to {
+        width: 100%;
+    }
+}
