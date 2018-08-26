@@ -1,15 +1,13 @@
-function letsstart() {
-    $('#seagle-tchat').css('height', '30px');
-    $('#seagle-tchat').css('width', '100%');
-    $('#seagle-tchat').hover(
-        function() {
-            $(this).css("animation", "none");
-            $(this).css("height", "30px");   
-            $(this).css("cursor", "default");
-        }
-    );
-}
-
-function initialiseSeagleTchat() {
+window.onload = function() {
+    $("head link[rel='stylesheet']").last().after("<link rel='stylesheet' href='./seagle/css/base.css' type='text/css'>");
+    $("head link[rel='stylesheet']").last().after("<link rel='stylesheet' href='./seagle/css/animations.css' type='text/css'>");
     
+    $('#seagle-tchat').addClass('unloadState');
+    $('#seagle-tchat').attr('onClick', 'initialise()');
+};
+
+function initialise() {
+    $('#seagle-tchat').removeClass('unloadState');
+    $('#seagle-tchat').addClass('loadingState');
+    $('#seagle-tchat').html('Initialisation');
 }
